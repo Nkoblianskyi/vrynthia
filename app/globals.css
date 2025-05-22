@@ -1,0 +1,163 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 140 30% 40%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 30 40% 60%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 30 50% 50%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 140 30% 40%;
+    --radius: 0.5rem;
+  }
+
+  /* Remove dark mode styles */
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-black;
+  }
+
+  /* Explicitly define text colors */
+
+  /* Default text color for most elements */
+  p,
+  span,
+  li,
+  td,
+  th,
+  input,
+  textarea,
+  select,
+  label,
+  div {
+    @apply text-black;
+  }
+
+  /* Headings */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply text-black;
+  }
+
+  /* Links */
+  a {
+    @apply text-black;
+  }
+
+  /* Buttons */
+  button,
+  .button {
+    @apply text-black;
+  }
+
+  /* White text areas */
+  .bg-forest-600 *,
+  .bg-forest-700 *,
+  .bg-forest-800 *,
+  .bg-forest-900 *,
+  .bg-wood-700 *,
+  .bg-wood-800 *,
+  .bg-wood-900 *,
+  .bg-black *,
+  .bg-gray-900 * {
+    @apply text-white;
+  }
+}
+
+/* Use Tailwind's built-in utilities for specific text colors */
+@layer utilities {
+  /* Add utility classes to ensure specific colors are preserved */
+  .text-force-white {
+    color: white !important;
+  }
+
+  .text-force-black {
+    color: black !important;
+  }
+
+  .text-force-gray {
+    color: #6b7280 !important; /* gray-500 */
+  }
+
+  .text-force-forest {
+    color: #4d7a5e !important; /* forest-500 */
+  }
+
+  .text-force-wood {
+    color: #b78057 !important; /* wood-500 */
+  }
+
+  .text-force-red {
+    color: #ef4444 !important; /* red-500 */
+  }
+
+  .text-force-green {
+    color: #10b981 !important; /* green-500 */
+  }
+
+  .text-force-yellow {
+    color: #fcd34d !important; /* yellow-300 */
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateX(-30px);
+  }
+  50% {
+    transform: translateX(30px);
+  }
+  100% {
+    transform: translateX(-30px);
+  }
+}
+
+.cloud {
+  animation: float 30s infinite ease-in-out;
+}
+
+@keyframes swing {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(5deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.swing {
+  animation: swing 2s infinite ease-in-out;
+}
