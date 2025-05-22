@@ -9,92 +9,93 @@ export default function PrivacyPolicyPage() {
         <div className="max-w-3xl mx-auto bg-white p-8 rounded-lg shadow">
           <div className="flex items-center mb-6">
             <ShieldCheck className="h-6 w-6 text-blue-500 mr-2" />
-            <h1 className="text-3xl font-bold">Privacy Policy</h1>
+            <h1 className="text-3xl font-bold">Datenschutzerklärung</h1>
           </div>
 
           <div className="prose max-w-none">
-            <p>Last updated: May 21, 2025</p>
+            <p>Zuletzt aktualisiert: 21. Mai 2025</p>
 
-            <h2>Introduction</h2>
+            <h2>Einleitung</h2>
             <p>
-              Quazivor Inc. ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains
-              how we collect, use, disclose, and safeguard your information when you use our social game "Urban
-              Raccoon".
+              Vrynthia GmbH ("wir", "unser" oder "uns") verpflichtet sich, Ihre Privatsphäre zu schützen. Diese
+              Datenschutzerklärung erläutert, wie wir Ihre Informationen sammeln, verwenden, offenlegen und schützen,
+              wenn Sie unser soziales Spiel "Rescue Hero in the Canadian Rockies" nutzen.
             </p>
 
-            <h2>Information We Collect</h2>
-            <p>We may collect the following types of information:</p>
+            <h2>Informationen, die wir sammeln</h2>
+            <p>Wir können folgende Arten von Informationen sammeln:</p>
             <ul>
               <li>
-                <strong>Personal Information:</strong> Name, email address, and age verification status when you contact
-                us or create an account.
+                <strong>Persönliche Informationen:</strong> Name, E-Mail-Adresse und Altersverifikationsstatus, wenn Sie
+                uns kontaktieren oder ein Konto erstellen.
               </li>
               <li>
-                <strong>Usage Data:</strong> Information about how you interact with our game, including game scores,
-                progress, and preferences.
+                <strong>Nutzungsdaten:</strong> Informationen darüber, wie Sie mit unserem Spiel interagieren,
+                einschließlich Spielergebnissen, Fortschritt und Präferenzen.
               </li>
               <li>
-                <strong>Device Information:</strong> Information about your device, including IP address, browser type,
-                and operating system.
+                <strong>Geräteinformationen:</strong> Informationen über Ihr Gerät, einschließlich IP-Adresse,
+                Browsertyp und Betriebssystem.
               </li>
             </ul>
 
-            <h2>How We Use Your Information</h2>
-            <p>We may use the information we collect for various purposes, including:</p>
+            <h2>Wie wir Ihre Informationen verwenden</h2>
+            <p>Wir können die gesammelten Informationen für verschiedene Zwecke verwenden, darunter:</p>
             <ul>
-              <li>To provide and maintain our game</li>
-              <li>To notify you about changes to our game</li>
-              <li>To allow you to participate in interactive features</li>
-              <li>To provide customer support</li>
-              <li>To gather analysis or valuable information to improve our game</li>
-              <li>To monitor the usage of our game</li>
-              <li>To detect, prevent, and address technical issues</li>
+              <li>Um unser Spiel bereitzustellen und zu warten</li>
+              <li>Um Sie über Änderungen an unserem Spiel zu informieren</li>
+              <li>Um Ihnen die Teilnahme an interaktiven Funktionen zu ermöglichen</li>
+              <li>Um Kundensupport zu bieten</li>
+              <li>Um Analysen oder wertvolle Informationen zu sammeln, um unser Spiel zu verbessern</li>
+              <li>Um die Nutzung unseres Spiels zu überwachen</li>
+              <li>Um technische Probleme zu erkennen, zu verhindern und zu beheben</li>
             </ul>
 
-            <h2>Disclosure of Your Information</h2>
-            <p>We may share your information with:</p>
+            <h2>Offenlegung Ihrer Informationen</h2>
+            <p>Wir können Ihre Informationen teilen mit:</p>
             <ul>
-              <li>Service providers who assist us in operating our game</li>
-              <li>Legal authorities when required by law</li>
-              <li>Business partners with your consent</li>
+              <li>Dienstleistern, die uns bei der Betreibung unseres Spiels unterstützen</li>
+              <li>Rechtlichen Behörden, wenn gesetzlich vorgeschrieben</li>
+              <li>Geschäftspartnern mit Ihrer Zustimmung</li>
             </ul>
 
-            <h2>Data Security</h2>
+            <h2>Datensicherheit</h2>
             <p>
-              We implement appropriate security measures to protect your personal information. However, no method of
-              transmission over the Internet or electronic storage is 100% secure, and we cannot guarantee absolute
-              security.
+              Wir implementieren angemessene Sicherheitsmaßnahmen zum Schutz Ihrer persönlichen Informationen. Jedoch
+              ist keine Methode der Übertragung über das Internet oder der elektronischen Speicherung zu 100% sicher,
+              und wir können keine absolute Sicherheit garantieren.
             </p>
 
-            <h2>Your Rights</h2>
+            <h2>Ihre Rechte</h2>
             <p>
-              Depending on your location, you may have certain rights regarding your personal information, including:
+              Je nach Ihrem Standort haben Sie möglicherweise bestimmte Rechte bezüglich Ihrer persönlichen
+              Informationen, darunter:
             </p>
             <ul>
-              <li>The right to access your personal information</li>
-              <li>The right to correct inaccurate information</li>
-              <li>The right to delete your personal information</li>
-              <li>The right to restrict processing of your personal information</li>
-              <li>The right to data portability</li>
-              <li>The right to object to processing of your personal information</li>
+              <li>Das Recht auf Zugang zu Ihren persönlichen Informationen</li>
+              <li>Das Recht auf Berichtigung ungenauer Informationen</li>
+              <li>Das Recht auf Löschung Ihrer persönlichen Informationen</li>
+              <li>Das Recht auf Einschränkung der Verarbeitung Ihrer persönlichen Informationen</li>
+              <li>Das Recht auf Datenübertragbarkeit</li>
+              <li>Das Recht, der Verarbeitung Ihrer persönlichen Informationen zu widersprechen</li>
             </ul>
 
-            <h2>Contact Us</h2>
-            <p>If you have any questions about this Privacy Policy, please contact us at:</p>
+            <h2>Kontaktieren Sie uns</h2>
+            <p>Wenn Sie Fragen zu dieser Datenschutzerklärung haben, kontaktieren Sie uns bitte unter:</p>
             <p>
-              Quazivor Inc.
+              Vrynthia GmbH
               <br />
-              46 Robson St, Vancouver, BC, V6B 2B5
+              Schillerstraße 12, Graz, 8010
               <br />
-              Email: contact@quazivor.com
+              E-Mail: contact@vrynthia.com
               <br />
-              Website: quazivor.com
+              Telefon: +43 316 555 1642
             </p>
           </div>
 
           <div className="mt-8 text-center">
             <Link href="/">
-              <Button>Return to Homepage</Button>
+              <Button>Zurück zur Startseite</Button>
             </Link>
           </div>
         </div>

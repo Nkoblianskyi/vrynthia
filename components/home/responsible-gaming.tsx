@@ -22,43 +22,42 @@ export default function ResponsibleGaming() {
 
           <div className="bg-white p-6 rounded-xl shadow-md mb-8">
             <p className="text-center mb-6 font-medium">
-              Urban Raccoon ist eine Soziale Plattform nur zu Unterhaltungszwecken. Kein Echtgeld ist involviert, und
+              Holzunternehmer ist eine Soziale Plattform nur zu Unterhaltungszwecken. Kein Echtgeld ist involviert, und
               keine Preise werden vergeben.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
               <div className="bg-amber-50 p-4 rounded-lg text-center">
-                <div className="font-bold text-amber-700 mb-1">No Real Money</div>
-                <p className="text-sm text-gray-600">All points and rewards are virtual with no monetary value</p>
+                <div className="font-bold text-amber-700 mb-1">Kein Echtgeld</div>
+                <p className="text-sm text-gray-600">Alle Punkte und Belohnungen sind virtuell ohne Geldwert</p>
               </div>
               <div className="bg-amber-50 p-4 rounded-lg text-center">
                 <div className="font-bold text-amber-700 mb-1">Soziale Plattform</div>
-                <p className="text-sm text-gray-600">Designed für soziale Interaktion und Unterhaltung</p>
+                <p className="text-sm text-gray-600">Konzipiert für soziale Interaktion und Unterhaltung</p>
               </div>
               <div className="bg-amber-50 p-4 rounded-lg text-center">
-                <div className="font-bold text-amber-700 mb-1">Ages 18+</div>
-                <p className="text-sm text-gray-600">Content is intended for adult audiences</p>
+                <div className="font-bold text-amber-700 mb-1">Ab 18 Jahren</div>
+                <p className="text-sm text-gray-600">Inhalte sind für erwachsenes Publikum bestimmt</p>
               </div>
             </div>
           </div>
 
           <div className="text-center text-sm text-gray-500">
-            <p>&copy; {new Date().getFullYear()} Quazivor Inc. All rights reserved.</p>
-            <p className="mt-1">
+            <p>
               <Link href="/privacy-policy" className="hover:underline">
-                Privacy Policy
+                Datenschutzerklärung
               </Link>{" "}
               |
               <Link href="/terms" className="hover:underline ml-2">
-                Terms of Service
+                Nutzungsbedingungen
               </Link>{" "}
               |
               <Link href="/cookies" className="hover:underline ml-2">
-                Cookie Policy
+                Cookie-Richtlinie
               </Link>{" "}
               |
               <Link href="/disclaimer" className="hover:underline ml-2">
-                Disclaimer
+                Haftungsausschluss
               </Link>
             </p>
           </div>

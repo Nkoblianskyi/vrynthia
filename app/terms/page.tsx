@@ -9,122 +9,132 @@ export default function TermsPage() {
         <div className="max-w-3xl mx-auto bg-white p-8 rounded-lg shadow">
           <div className="flex items-center mb-6">
             <FileText className="h-6 w-6 text-blue-500 mr-2" />
-            <h1 className="text-3xl font-bold">Terms of Service</h1>
+            <h1 className="text-3xl font-bold">Nutzungsbedingungen</h1>
           </div>
 
           <div className="prose max-w-none">
-            <p>Last updated: May 21, 2025</p>
+            <p>Zuletzt aktualisiert: 21. Mai 2025</p>
 
-            <h2>1. Introduction</h2>
+            <h2>1. Einleitung</h2>
             <p>
-              Welcome to "Urban Raccoon" ("Social Platform"). These Terms of Service ("Terms") govern your use of our
-              Social Platform and website operated by Quazivor Inc. ("we," "us," or "our"). By accessing or using our
-              Social Platform, you agree to be bound by these Terms. If you disagree with any part of the Terms, you may
-              not access the Social Platform.
+              Willkommen bei "Rescue Hero in the Canadian Rockies" ("Soziale Plattform"). Diese Nutzungsbedingungen
+              ("Bedingungen") regeln Ihre Nutzung unserer Sozialen Plattform und Website, die von Vrynthia GmbH ("wir",
+              "uns" oder "unser") betrieben wird. Durch den Zugriff auf oder die Nutzung unserer Sozialen Plattform
+              stimmen Sie zu, an diese Bedingungen gebunden zu sein. Wenn Sie mit einem Teil der Bedingungen nicht
+              einverstanden sind, dürfen Sie nicht auf die Soziale Plattform zugreifen.
             </p>
 
-            <h2>2. Age Restriction</h2>
+            <h2>2. Altersbeschränkung</h2>
             <p>
-              The Game is intended for users who are 18 years of age or older. By accessing or using the Game, you
-              represent and warrant that you are at least 18 years old. If we discover or have reason to believe that
-              you are not at least 18 years old, we reserve the right to suspend or terminate your access to the Game
-              immediately.
+              Das Spiel ist für Benutzer bestimmt, die 18 Jahre oder älter sind. Durch den Zugriff auf oder die Nutzung
+              des Spiels versichern und garantieren Sie, dass Sie mindestens 18 Jahre alt sind. Wenn wir entdecken oder
+              Grund zu der Annahme haben, dass Sie nicht mindestens 18 Jahre alt sind, behalten wir uns das Recht vor,
+              Ihren Zugang zum Spiel sofort auszusetzen oder zu beenden.
             </p>
 
-            <h2>3. Entertainment Purposes Only</h2>
+            <h2>3. Nur zu Unterhaltungszwecken</h2>
             <p>
-              "Rescue Hero in the Canadian Rockies" is a Social Platform designed for entertainment purposes only. We
-              explicitly state that:
-            </p>
-            <ul>
-              <li>This is not a real money simulation</li>
-              <li>No real money can be won or lost</li>
-              <li>No prizes are offered</li>
-              <li>No purchases are necessary to play</li>
-              <li>In-game points have no monetary value</li>
-            </ul>
-
-            <h2>4. User Accounts</h2>
-            <p>
-              When you create an account with us, you must provide information that is accurate, complete, and current
-              at all times. Failure to do so constitutes a breach of the Terms, which may result in immediate
-              termination of your account.
-            </p>
-            <p>
-              You are responsible for safeguarding the password that you use to access the Game and for any activities
-              or actions under your password. You agree not to disclose your password to any third party. You must
-              notify us immediately upon becoming aware of any breach of security or unauthorized use of your account.
-            </p>
-
-            <h2>5. Intellectual Property</h2>
-            <p>
-              The Game and its original content, features, and functionality are and will remain the exclusive property
-              of Quazivor Inc. and its licensors. The Game is protected by copyright, trademark, and other laws of both
-              Canada and foreign countries. Our trademarks and trade dress may not be used in connection with any
-              product or service without the prior written consent of Quazivor Inc.
-            </p>
-
-            <h2>6. User Conduct</h2>
-            <p>You agree not to use the Game:</p>
-            <ul>
-              <li>In any way that violates any applicable national or international law or regulation</li>
-              <li>
-                To transmit, or procure the sending of, any advertising or promotional material, including any "junk
-                mail," "chain letter," "spam," or any other similar solicitation
-              </li>
-              <li>
-                To impersonate or attempt to impersonate the Company, a Company employee, another user, or any other
-                person or entity
-              </li>
-              <li>
-                In any way that could disable, overburden, damage, or impair the site or interfere with any other
-                party's use of the Game
-              </li>
-            </ul>
-
-            <h2>7. Limitation of Liability</h2>
-            <p>
-              In no event shall Quazivor Inc., nor its directors, employees, partners, agents, suppliers, or affiliates,
-              be liable for any indirect, incidental, special, consequential or punitive damages, including without
-              limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from:
+              "Rescue Hero in the Canadian Rockies" ist eine Soziale Plattform, die ausschließlich zu
+              Unterhaltungszwecken entwickelt wurde. Wir erklären ausdrücklich, dass:
             </p>
             <ul>
-              <li>Your access to or use of or inability to access or use the Game</li>
-              <li>Any conduct or content of any third party on the Game</li>
-              <li>Any content obtained from the Game</li>
-              <li>Unauthorized access, use or alteration of your transmissions or content</li>
+              <li>Dies keine Simulation mit echtem Geld ist</li>
+              <li>Kein echtes Geld gewonnen oder verloren werden kann</li>
+              <li>Keine Preise angeboten werden</li>
+              <li>Keine Käufe zum Spielen erforderlich sind</li>
+              <li>Spielpunkte keinen monetären Wert haben</li>
             </ul>
 
-            <h2>8. Changes to Terms</h2>
+            <h2>4. Benutzerkonten</h2>
             <p>
-              We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision
-              is material, we will try to provide at least 30 days' notice prior to any new terms taking effect. What
-              constitutes a material change will be determined at our sole discretion.
+              Wenn Sie ein Konto bei uns erstellen, müssen Sie Informationen angeben, die zu jeder Zeit genau,
+              vollständig und aktuell sind. Ein Verstoß dagegen stellt einen Verstoß gegen die Bedingungen dar, was zur
+              sofortigen Kündigung Ihres Kontos führen kann.
+            </p>
+            <p>
+              Sie sind verantwortlich für die Sicherung des Passworts, das Sie für den Zugriff auf das Spiel verwenden,
+              und für alle Aktivitäten oder Aktionen unter Ihrem Passwort. Sie stimmen zu, Ihr Passwort keinem Dritten
+              mitzuteilen. Sie müssen uns sofort benachrichtigen, wenn Sie von einer Sicherheitsverletzung oder
+              unbefugten Nutzung Ihres Kontos erfahren.
             </p>
 
-            <h2>9. Governing Law</h2>
+            <h2>5. Geistiges Eigentum</h2>
             <p>
-              These Terms shall be governed and construed in accordance with the laws of Canada, without regard to its
-              conflict of law provisions. Our failure to enforce any right or provision of these Terms will not be
-              considered a waiver of those rights.
+              Das Spiel und seine originalen Inhalte, Funktionen und Funktionalität sind und bleiben das ausschließliche
+              Eigentum von Vrynthia GmbH und ihren Lizenzgebern. Das Spiel ist durch Urheberrecht, Markenrecht und
+              andere Gesetze sowohl Österreichs als auch anderer Länder geschützt. Unsere Marken und Handelsaufmachung
+              dürfen nicht in Verbindung mit einem Produkt oder einer Dienstleistung ohne vorherige schriftliche
+              Zustimmung von Vrynthia GmbH verwendet werden.
             </p>
 
-            <h2>10. Contact Us</h2>
-            <p>If you have any questions about these Terms, please contact us at:</p>
+            <h2>6. Benutzerverhalten</h2>
+            <p>Sie stimmen zu, das Spiel nicht zu verwenden:</p>
+            <ul>
+              <li>
+                In einer Weise, die gegen geltende nationale oder internationale Gesetze oder Vorschriften verstößt
+              </li>
+              <li>
+                Um Werbung oder Werbematerial zu übermitteln oder zu veranlassen, einschließlich "Junk-Mail",
+                "Kettenbrief", "Spam" oder ähnliche Aufforderungen
+              </li>
+              <li>
+                Um sich als das Unternehmen, einen Mitarbeiter des Unternehmens, einen anderen Benutzer oder eine andere
+                Person oder Einheit auszugeben oder dies zu versuchen
+              </li>
+              <li>
+                In einer Weise, die die Website deaktivieren, überlasten, beschädigen oder beeinträchtigen könnte oder
+                die Nutzung des Spiels durch eine andere Partei stören könnte
+              </li>
+            </ul>
+
+            <h2>7. Haftungsbeschränkung</h2>
             <p>
-              Quazivor Inc.
+              In keinem Fall haften Vrynthia GmbH oder ihre Direktoren, Mitarbeiter, Partner, Agenten, Lieferanten oder
+              verbundenen Unternehmen für indirekte, zufällige, besondere, Folge- oder Strafschäden, einschließlich,
+              aber nicht beschränkt auf Verlust von Gewinnen, Daten, Nutzung, Goodwill oder anderen immateriellen
+              Verlusten, die sich ergeben aus:
+            </p>
+            <ul>
+              <li>
+                Ihrem Zugriff auf oder Ihrer Nutzung des Spiels oder Ihrer Unfähigkeit, auf das Spiel zuzugreifen oder
+                es zu nutzen
+              </li>
+              <li>Jeglichem Verhalten oder Inhalt eines Dritten im Spiel</li>
+              <li>Jeglichem Inhalt, der vom Spiel erhalten wird</li>
+              <li>Unbefugtem Zugriff, Nutzung oder Änderung Ihrer Übertragungen oder Inhalte</li>
+            </ul>
+
+            <h2>8. Änderungen der Bedingungen</h2>
+            <p>
+              Wir behalten uns das Recht vor, diese Bedingungen nach eigenem Ermessen jederzeit zu ändern oder zu
+              ersetzen. Wenn eine Änderung wesentlich ist, werden wir versuchen, mindestens 30 Tage vor Inkrafttreten
+              neuer Bedingungen zu informieren. Was eine wesentliche Änderung darstellt, wird nach unserem alleinigen
+              Ermessen bestimmt.
+            </p>
+
+            <h2>9. Geltendes Recht</h2>
+            <p>
+              Diese Bedingungen unterliegen den Gesetzen Österreichs und werden in Übereinstimmung mit diesen ausgelegt,
+              ohne Rücksicht auf Kollisionsnormen. Unser Versäumnis, ein Recht oder eine Bestimmung dieser Bedingungen
+              durchzusetzen, wird nicht als Verzicht auf diese Rechte angesehen.
+            </p>
+
+            <h2>10. Kontaktieren Sie uns</h2>
+            <p>Wenn Sie Fragen zu diesen Bedingungen haben, kontaktieren Sie uns bitte unter:</p>
+            <p>
+              Vrynthia GmbH
               <br />
-              46 Robson St, Vancouver, BC, V6B 2B5
+              Schillerstraße 12, Graz, 8010
               <br />
-              Email: contact@quazivor.com
+              E-Mail: contact@vrynthia.com
               <br />
-              Website: quazivor.com
+              Telefon: +43 316 555 1642
             </p>
           </div>
 
           <div className="mt-8 text-center">
             <Link href="/">
-              <Button>Return to Homepage</Button>
+              <Button>Zurück zur Startseite</Button>
             </Link>
           </div>
         </div>

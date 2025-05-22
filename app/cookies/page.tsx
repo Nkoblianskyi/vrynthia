@@ -9,164 +9,131 @@ export default function CookiesPage() {
         <div className="max-w-3xl mx-auto bg-white p-8 rounded-lg shadow">
           <div className="flex items-center mb-6">
             <Cookie className="h-6 w-6 text-blue-500 mr-2" />
-            <h1 className="text-3xl font-bold">Cookie Policy</h1>
+            <h1 className="text-3xl font-bold">Cookie-Richtlinie</h1>
           </div>
 
           <div className="prose max-w-none">
-            <p>Last updated: May 21, 2025</p>
+            <p>Zuletzt aktualisiert: 21. Mai 2025</p>
 
-            <h2>What Are Cookies</h2>
+            <h2>Was sind Cookies</h2>
             <p>
-              Cookies are small text files that are placed on your computer or mobile device when you visit a website.
-              They are widely used to make websites work more efficiently and provide information to the website owners.
-              Cookies help provide a better and more personalized user experience.
+              Cookies sind kleine Textdateien, die auf Ihrem Computer oder mobilen Gerät platziert werden, wenn Sie eine
+              Website besuchen. Sie werden weithin verwendet, um Websites effizienter zu machen und den
+              Website-Betreibern Informationen zu liefern. Cookies helfen, eine bessere und personalisiertere
+              Benutzererfahrung zu bieten.
             </p>
 
-            <h2>How We Use Cookies</h2>
+            <h2>Wie wir Cookies verwenden</h2>
             <p>
-              "Rescue Hero in the Canadian Rockies" uses cookies for various purposes, including but not limited to:
-            </p>
-            <ul>
-              <li>
-                <strong>Essential Cookies:</strong> These cookies are necessary for the website to function properly.
-                They enable core functionality such as security, network management, and account access. You may disable
-                these by changing your browser settings, but this may affect how the website functions.
-              </li>
-              <li>
-                <strong>Analytical/Performance Cookies:</strong> These cookies allow us to recognize and count the
-                number of visitors and see how visitors move around our website when they are using it. This helps us
-                improve the way our website works, for example, by ensuring that users find what they are looking for
-                easily.
-              </li>
-              <li>
-                <strong>Functionality Cookies:</strong> These cookies are used to recognize you when you return to our
-                website. This enables us to personalize our content for you, greet you by name, and remember your
-                preferences (for example, your choice of language or region).
-              </li>
-              <li>
-                <strong>Age Verification Cookies:</strong> We use cookies to remember that you have verified your age to
-                access our game, which is intended for users 18 years of age or older.
-              </li>
-              <li>
-                <strong>Game Progress Cookies:</strong> These cookies help us save your game progress and preferences so
-                you can continue where you left off when you return to the game.
-              </li>
-            </ul>
-
-            <h2>Types of Cookies We Use</h2>
-            <p>Our website uses the following types of cookies:</p>
-
-            <h3>Session Cookies</h3>
-            <p>
-              Session cookies are temporary cookies that are erased when you close your browser. These cookies do not
-              collect information from your computer. They typically store information in the form of a session
-              identification that does not personally identify you.
-            </p>
-
-            <h3>Persistent Cookies</h3>
-            <p>
-              Persistent cookies remain on your hard drive until you erase them or they expire. These cookies may be
-              used to remember your preferences and choices on our site, or to track your usage behavior.
-            </p>
-
-            <h2>Third-Party Cookies</h2>
-            <p>
-              In addition to our own cookies, we may also use various third-party cookies to report usage statistics of
-              the game, deliver advertisements, and so on. These cookies may include:
+              "Rescue Hero in the Canadian Rockies" verwendet Cookies für verschiedene Zwecke, darunter, aber nicht
+              beschränkt auf:
             </p>
             <ul>
               <li>
-                <strong>Analytics Cookies:</strong> We use Google Analytics to help us understand how users engage with
-                our game. These cookies collect information about your use of the game, including which pages you visit
-                and how you navigate through the site.
+                <strong>Wesentliche Cookies:</strong> Diese Cookies sind notwendig, damit die Website ordnungsgemäß
+                funktioniert. Sie ermöglichen Kernfunktionalitäten wie Sicherheit, Netzwerkmanagement und Kontozugriff.
+                Sie können diese deaktivieren, indem Sie Ihre Browsereinstellungen ändern, aber dies kann die
+                Funktionsweise der Website beeinträchtigen.
               </li>
               <li>
-                <strong>Social Media Cookies:</strong> These cookies allow you to share your experience on our site with
-                social media platforms like Facebook, Twitter, and Instagram. These cookies are not within our control.
-                Please refer to the respective privacy policies of these platforms for how their cookies work.
+                <strong>Analytische/Leistungs-Cookies:</strong> Diese Cookies ermöglichen es uns, die Anzahl der
+                Besucher zu erkennen und zu zählen und zu sehen, wie Besucher sich auf unserer Website bewegen, wenn sie
+                sie benutzen. Dies hilft uns, die Art und Weise zu verbessern, wie unsere Website funktioniert, zum
+                Beispiel, indem sichergestellt wird, dass Benutzer leicht finden, wonach sie suchen.
+              </li>
+              <li>
+                <strong>Funktionalitäts-Cookies:</strong> Diese Cookies werden verwendet, um Sie zu erkennen, wenn Sie
+                zu unserer Website zurückkehren. Dies ermöglicht es uns, unsere Inhalte für Sie zu personalisieren, Sie
+                mit Namen zu begrüßen und Ihre Präferenzen zu speichern (zum Beispiel Ihre Wahl der Sprache oder
+                Region).
+              </li>
+              <li>
+                <strong>Altersverifikations-Cookies:</strong> Wir verwenden Cookies, um zu speichern, dass Sie Ihr Alter
+                verifiziert haben, um auf unser Spiel zuzugreifen, das für Benutzer ab 18 Jahren bestimmt ist.
+              </li>
+              <li>
+                <strong>Spielfortschritts-Cookies:</strong> Diese Cookies helfen uns, Ihren Spielfortschritt und Ihre
+                Präferenzen zu speichern, damit Sie dort weitermachen können, wo Sie aufgehört haben, wenn Sie zum Spiel
+                zurückkehren.
               </li>
             </ul>
 
-            <h2>Managing Cookies</h2>
+            <h2>Arten von Cookies, die wir verwenden</h2>
+            <p>Unsere Website verwendet die folgenden Arten von Cookies:</p>
+
+            <h3>Sitzungs-Cookies</h3>
             <p>
-              Most web browsers allow you to manage your cookie preferences. You can set your browser to refuse cookies,
-              or to alert you when cookies are being sent. The methods for doing so vary from browser to browser, and
-              from version to version. You can however obtain up-to-date information about blocking and deleting cookies
-              via these links:
+              Sitzungs-Cookies sind temporäre Cookies, die gelöscht werden, wenn Sie Ihren Browser schließen. Diese
+              Cookies sammeln keine Informationen von Ihrem Computer. Sie speichern typischerweise Informationen in Form
+              einer Sitzungsidentifikation, die Sie nicht persönlich identifiziert.
+            </p>
+
+            <h3>Persistente Cookies</h3>
+            <p>
+              Persistente Cookies bleiben auf Ihrer Festplatte, bis Sie sie löschen oder sie ablaufen. Diese Cookies
+              können verwendet werden, um Ihre Präferenzen und Entscheidungen auf unserer Website zu speichern oder um
+              Ihr Nutzungsverhalten zu verfolgen.
+            </p>
+
+            <h2>Cookies von Drittanbietern</h2>
+            <p>
+              Zusätzlich zu unseren eigenen Cookies können wir auch verschiedene Cookies von Drittanbietern verwenden,
+              um Nutzungsstatistiken des Spiels zu melden, Werbung zu liefern und so weiter. Diese Cookies können
+              umfassen:
             </p>
             <ul>
               <li>
-                <a
-                  href="https://support.google.com/chrome/answer/95647"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-blue-600 hover:underline"
-                >
-                  Google Chrome
-                </a>
+                <strong>Analyse-Cookies:</strong> Wir verwenden Google Analytics, um zu verstehen, wie Benutzer mit
+                unserem Spiel interagieren. Diese Cookies sammeln Informationen über Ihre Nutzung des Spiels,
+                einschließlich welche Seiten Sie besuchen und wie Sie durch die Website navigieren.
               </li>
               <li>
-                <a
-                  href="https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-blue-600 hover:underline"
-                >
-                  Mozilla Firefox
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://support.apple.com/guide/safari/manage-cookies-and-website-data-sfri11471/mac"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-blue-600 hover:underline"
-                >
-                  Safari
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://support.microsoft.com/en-us/microsoft-edge/delete-cookies-in-microsoft-edge-63947406-40ac-c3b8-57b9-2a946a29ae09"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-blue-600 hover:underline"
-                >
-                  Microsoft Edge
-                </a>
+                <strong>Social-Media-Cookies:</strong> Diese Cookies ermöglichen es Ihnen, Ihre Erfahrung auf unserer
+                Website mit Social-Media-Plattformen wie Facebook, Twitter und Instagram zu teilen. Diese Cookies liegen
+                nicht in unserer Kontrolle. Bitte beziehen Sie sich auf die jeweiligen Datenschutzrichtlinien dieser
+                Plattformen, um zu erfahren, wie ihre Cookies funktionieren.
               </li>
             </ul>
+
+            <h2>Verwaltung von Cookies</h2>
             <p>
-              Please note that if you choose to disable cookies, you may not be able to access certain parts of our
-              game, and some features may not function properly.
+              Die meisten Webbrowser ermöglichen es Ihnen, Ihre Cookie-Präferenzen zu verwalten. Sie können Ihren
+              Browser so einstellen, dass er Cookies ablehnt oder Sie benachrichtigt, wenn Cookies gesendet werden. Die
+              Methoden dafür variieren von Browser zu Browser und von Version zu Version.
+            </p>
+            <p>
+              Bitte beachten Sie, dass, wenn Sie sich entscheiden, Cookies zu deaktivieren, Sie möglicherweise nicht auf
+              bestimmte Teile unseres Spiels zugreifen können, und einige Funktionen funktionieren möglicherweise nicht
+              ordnungsgemäß.
             </p>
 
-            <h2>Changes to Our Cookie Policy</h2>
+            <h2>Änderungen an unserer Cookie-Richtlinie</h2>
             <p>
-              We may update our Cookie Policy from time to time. We will notify you of any changes by posting the new
-              Cookie Policy on this page and updating the "Last Updated" date at the top of this policy.
+              Wir können unsere Cookie-Richtlinie von Zeit zu Zeit aktualisieren. Wir werden Sie über Änderungen
+              informieren, indem wir die neue Cookie-Richtlinie auf dieser Seite veröffentlichen und das Datum "Zuletzt
+              aktualisiert" am Anfang dieser Richtlinie aktualisieren.
             </p>
             <p>
-              You are advised to review this Cookie Policy periodically for any changes. Changes to this Cookie Policy
-              are effective when they are posted on this page.
+              Es wird empfohlen, diese Cookie-Richtlinie regelmäßig auf Änderungen zu überprüfen. Änderungen an dieser
+              Cookie-Richtlinie sind wirksam, wenn sie auf dieser Seite veröffentlicht werden.
             </p>
 
-            <h2>Contact Us</h2>
-            <p>If you have any questions about our Cookie Policy, please contact us at:</p>
+            <h2>Kontaktieren Sie uns</h2>
+            <p>Wenn Sie Fragen zu unserer Cookie-Richtlinie haben, kontaktieren Sie uns bitte unter:</p>
             <p>
-              Zentriqa Inc.
+              Vrynthia GmbH
               <br />
-              11 Yonge St, Toronto, ON, M5C 1W4
+              Schillerstraße 12, Graz, 8010
               <br />
-              Email: info@zentriqa.com
+              E-Mail: contact@vrynthia.com
               <br />
-              Phone: +1 416 555 7890
+              Telefon: +43 316 555 1642
             </p>
           </div>
 
           <div className="mt-8 text-center">
             <Link href="/">
-              <Button>Return to Homepage</Button>
+              <Button>Zurück zur Startseite</Button>
             </Link>
           </div>
         </div>

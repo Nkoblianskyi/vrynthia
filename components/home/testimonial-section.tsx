@@ -59,7 +59,7 @@ export default function EducationalPlatformInfo() {
               <div>
                 <h3 className="text-2xl font-bold mb-3 text-green-800">Rein virtuelle Bildungsplattform</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Eine soziale, kostenlose Plattform. Es handelt sich
+                  Unsere Plattform ist ausschließlich für Bildungs- und Unterhaltungszwecke konzipiert. Es handelt sich
                   um eine
                   <strong className="text-green-700"> 100% kostenlose soziale Spielumgebung</strong>, die das Lernen
                   über Forstwirtschaft, Holzverarbeitung und Umweltschutz fördert.
